@@ -40,6 +40,7 @@ function App() {
 
   const onSetSearchQuery = (searchTerm) => {
     setQuery(searchTerm);
+    setPage(1);
     setIsLoading(true);
     setError(false);
     setImages([]);

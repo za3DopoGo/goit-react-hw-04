@@ -29,7 +29,7 @@ const SearchBar = ({ onSetSearchQuery, toast }) => {
           autoFocus
           placeholder="Search images and photos"
         />
-        <button className={css.searchBtn} title="Pres for search" type="submit">
+        <button className={css.searchBtn} title="Press for search" type="submit">
           🔎
         </button>
       </form>
